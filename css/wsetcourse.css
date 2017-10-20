@@ -1,0 +1,67 @@
+*{margin: 0;padding:0;box-sizing: border-box;}
+body{background-color:#ececec; }
+.fix{position: fixed;right:40px;top:550px;z-index: 2;}
+.navbar-inverse {
+    background-color: #ececec;
+    border:none;
+}
+.navul{height:105px;line-height: 105px;}
+.navul ul li a{color: #b3b0b2;font-size:17px;border-right: 1px solid #b3b0b2;display: inline-block;height:20px;padding-top: 1px;}
+.navul ul .cu a{font-weight: bold;}
+.navul ul .cu a{border:none;}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #ef8435;
+    background-color: transparent;
+}
+#course{margin-top:30px;}
+#course .row img{width:100%;position: relative;}
+#course .row .mengban{
+    width:262px;
+    height:193px;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0px;
+    text-align: center;
+    display: none;
+}
+#course .row .mengban a{
+    color:white;
+    font-size: 25px;
+    line-height: 193px;
+    text-decoration: none;
+}
+#course .row .row1:hover .mengban{display: block;}
+#course .row .row2:hover .mengban{display: block;}
+#course .row .row3:hover .mengban{display: block;}
+
+#courseinfo{margin-top: 30px;}
+#courseinfo .row img{width:100%;}
+
+#courselevel{margin-top:60px;}
+#courselevel .row img{width:100%;margin-top:20px; position: relative;}
+#courselevel .row .kong,#courselevel .row .kong1{
+    width:58px;
+    height:25px;
+    position: absolute;
+    bottom:3px;
+    right:320px;
+    cursor: pointer;
+}
+#courselevel .row-btm{margin-bottom:60px;}
+#courselevel form{position: absolute;top:250px;right:40px;}
+#courselevel form select{height:40px;width:80px;}
+#courselevel form input{
+    width:150px;
+    height:40px;
+    font-size: 15px;
+    margin-left: -4px;
+    color: #acacac;
+}
+#courselevel form .btn{
+    border:none;
+    background-color: #02a1e9;
+    color:white;
+    border-radius:4px;
+    width:240px;
+    margin-top: 10px;
+}
